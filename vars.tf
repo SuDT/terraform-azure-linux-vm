@@ -14,7 +14,7 @@ variable "ssh_public_key" {
 # optional variables
 variable "location" {
   description = "region where the resources should exist"
-  default     = "eastus"
+  default     = "southuk"
 }
 
 variable "vnet_address_space" {
